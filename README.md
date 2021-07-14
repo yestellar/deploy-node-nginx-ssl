@@ -1,4 +1,4 @@
-# Деполой Node.js, с уcтановкой Nginx и бесплатного SSL
+# Деплой Node.js, с уcтановкой Nginx и SSL Let's Encrypt
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=96eb2d860a30&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
