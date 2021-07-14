@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yestellar/deploy-node-nginx-ssl/issues"
   },
-  "homepage": "https://github.com/yestellar/deploy-node-nginx-ssl#readme"
+  "homepage": "https://github.com/yestellar/deploy-node-nginx-ssl#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
