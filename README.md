@@ -28,8 +28,8 @@ source ~/.profile
 # Установить последную версию
 nvm install node
 # Установить конкретную версию
-nvm install 14.7.3
-nvm use 14.7.3
+nvm install 14.17.3
+nvm use 14.17.3
 # Проверить активную версию 
 node -v
 ```
