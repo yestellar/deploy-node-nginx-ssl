@@ -79,7 +79,12 @@ location / {
 }
 ```
 - Ctrl + X чтобы выйти, 'y' чтобы сохранить
-- Проверьте синтаксис Nginx и перезапусите сервер
+- Если запущен Apache сервер, его необходимо остановить
+```
+service apache2 status
+service apache2 stop
+```
+- Проверьте синтаксис Nginx и перезапустите сервер
 ```
 sudo nginx -t
 sudo service nginx restart
