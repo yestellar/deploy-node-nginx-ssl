@@ -46,10 +46,11 @@ npm install
 - Установите PM2 и запустите node приложение:
 ```
 npm install -g pm2
-pm2 start index.js
+pm2 start index.js 
 pm2 status # Статус процессов
 pm2 logs # Показать логи приложения (Ctrl + C чтобы выйти)
 pm2 startup ubuntu # Запускать pm2 при рестарте системы
+pm2 save # Сохранить процесс чтобы при перезапуске сам запускался
 ```
 ## Установка firewall
 
@@ -82,7 +83,7 @@ location / {
 - Если запущен Apache сервер, его необходимо остановить
 ```
 service apache2 status
-service apache2 stop
+sudo systemctl disable apache2 && sudo systemctl stop apache2
 ```
 - Проверьте синтаксис Nginx и перезапустите сервер
 ```
