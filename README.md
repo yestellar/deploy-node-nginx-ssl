@@ -46,7 +46,7 @@ npm install
 - Установите PM2 и запустите node приложение:
 ```
 npm install -g pm2
-pm2 start index.js 
+NODE_ENV=production pm2 start npm --name strapi -- run start # Запустить в режиме продакшн npm run start скрипт и назвать "strapi"
 pm2 status # Статус процессов
 pm2 logs # Показать логи приложения (Ctrl + C чтобы выйти)
 pm2 startup ubuntu # Запускать pm2 при рестарте системы
