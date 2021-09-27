@@ -109,7 +109,7 @@ sudo certbot --nginx -d your-domain.com -d www.your-domain.com
 certbot renew --dry-run
 ```
 
-**Получилось ? Поставь звезду : Напиши коммент**
+**Получилось ? Поставь звёздочку и сохрани себе чтобы не потерять**
 
 
  
